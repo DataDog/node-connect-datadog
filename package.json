@@ -18,8 +18,8 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"engines": {
-    "node": ">=8"
-  },
+		"node": ">=8"
+	},
 	"dependencies": {
 		"node-dogstatsd": "0.0.6"
 	},
