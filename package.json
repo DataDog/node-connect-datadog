@@ -21,6 +21,7 @@
 		"node": ">=8"
 	},
 	"dependencies": {
+		"hot-shots": "^6.3.0",
 		"node-dogstatsd": "0.0.6"
 	},
 	"devDependencies": {
