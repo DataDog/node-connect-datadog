@@ -1,6 +1,6 @@
 {
 	"name": "connect-datadog",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "Datadog middleware for Connect JS / Express",
 	"main": "index.js",
 	"repository": {
