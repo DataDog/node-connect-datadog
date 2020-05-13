@@ -14,7 +14,9 @@ Add middleware immediately before your router.
 
 All options are optional.
 
-* `dogstatsd` node-dogstatsd client. `default = new require("node-dogstatsd").StatsD()`
+* `dogstatsd_host` *string* host for node-dogstatsd client. `default = localhost`;
+* `dogstatsd_port` *number* port for node-dogstatsd client. `default = 8125`;
+* `dogstatsd` node-dogstatsd client. `default = new require("node-dogstatsd").StatsD(dogstatsd_host, dogstatsd_port)`
 * `stat` *string* name for the stat. `default = "node.express.router"`
 * `tags` *array* of tags to be added to the histogram. `default = []`
 * `path` *boolean* include path tag. `default = false`
