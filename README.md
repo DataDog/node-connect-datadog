@@ -23,8 +23,8 @@ All options are optional.
 * `protocol` *boolean* include protocol tag. `default = false`
 * `response_code` *boolean* include http response codes. `default = false`
 * `delim` *string* char to replace pipe char with in the route `default = '-'`
+* `timing_type` *string* the type of metric to emit `histogram`, `distribution`, or `both`. `default = 'histogram'`
 
 ## License
 
 View the [LICENSE](https://github.com/AppPress/node-connect-datadog/blob/master/LICENSE) file.
-
