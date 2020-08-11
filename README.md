@@ -1,7 +1,10 @@
+# DEPRECATED
+
+**This library is deprecated and has been replaced with Datadog APM which generates the same metrics but also has many other [features](https://www.datadoghq.com/product/apm/) and [integrations](https://docs.datadoghq.com/tracing/compatibility_requirements/nodejs/#supported-integrations). We highly recommend upgrading to APM as this library will receive no further updates.**
+
 # node-connect-datadog
 
 Datadog middleware for Connect JS / Express
-
 
 ## Usage
 
@@ -27,4 +30,3 @@ All options are optional.
 ## License
 
 View the [LICENSE](https://github.com/AppPress/node-connect-datadog/blob/master/LICENSE) file.
-
